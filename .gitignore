@@ -29,7 +29,6 @@ lerna-debug.log*
 pnpm-debug.log*
 
 # Package manager lock files
-package-lock.json
 yarn.lock
 pnpm-lock.yaml
 .pnpm-store/
@@ -112,7 +111,6 @@ dist/
 
 # Gatsby files
 .cache/
-public/
 .gatsby-cache/
 
 # Storybook build outputs
@@ -189,13 +187,11 @@ _site/
 .jekyll-metadata
 
 # Hugo
-/public/
 /resources/_gen/
 /assets/jsconfig.json
 hugo_stats.json
 
 # Hexo
-public/
 .deploy*/
 
 # VuePress
@@ -880,7 +876,6 @@ venv.bak/
 
 # Data files
 *.csv
-*.json
 *.xml
 *.parquet
 data/
